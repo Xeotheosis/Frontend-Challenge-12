@@ -105,23 +105,14 @@ IMAGE SETTINGS
     width:34rem;
     object-fit:contain;
     position:relative;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    mix-blend-mode: multiply;
+  
 }
 .image-container{
     position:relative;
+    background-color:var(--soft-violet);
 }
-.image-container:before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(hsla(277, 74%, 18%, 0.68), hsla(277, 74%, 18%, 0.634));
-    opacity: 0.5;
-    z-index:2;
-}
+
 
 /* =================
 IMAGE SETTINGS
