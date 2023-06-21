@@ -111,6 +111,7 @@ IMAGE SETTINGS
 .image-container{
     position:relative;
     background-color:var(--soft-violet);
+    height:25rem;
 }
 
 
