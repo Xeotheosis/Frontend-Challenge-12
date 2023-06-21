@@ -131,9 +131,11 @@ width:50rem;
 padding:4rem;
 }
 
+.image-container{
+    border-bottom-right-radius:1rem;
+    border-top-right-radius:1rem;
 .image{
     width:54rem;
-    height:40rem;
     object-fit: contain;
     border-top-left-radius: 0;
     border-bottom-right-radius:1rem;
